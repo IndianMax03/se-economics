@@ -1,1 +1,2 @@
-python3 hello.py
+docker build -t py .
+docker run py

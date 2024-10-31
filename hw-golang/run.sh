@@ -1,2 +1,2 @@
-go build hello.go
-./hello
+docker build -t gola .
+docker run gola
